@@ -108,6 +108,28 @@ a {
   margin: 50px 50px 0 50px;
 }
 
+.meetup-members {
+  background-color: #e3a248;
+  display: none;
+  padding: 0 10% 50px 10%;
+  width: 100%;
+}
+
+.meetup-members h3 {
+  padding: 50px 50px 0 50px;
+}
+
+.meetup-members-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.meetup-members-container .member {
+  flex: 1;
+  flex-basis: 20%;
+  margin: 50px 50px 0 50px;
+}
+
 @media (min-width: 800px) {
   .site-main {
     flex-direction: row;
